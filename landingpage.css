@@ -1,6 +1,12 @@
 body{
     border: 0px;
     margin: 0px;
+    font-family:'DM Sans', sans-serif;
+    
+}
+@font-face {
+    font-family:'mulish';
+    font-family:'DM Sans'
 }
 
 .logodiv{
@@ -50,14 +56,13 @@ color: #696871;
     font-weight: 700;
     line-height: 77px;
     color: #19191b;
-    
-
 }
 
 .heropara{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    color: #696871;
 
 }
 
@@ -96,4 +101,31 @@ color: #696871;
 .iconpdiv{
     display: flex;
     justify-content: space-evenly;
+}
+.sec3h5{
+font-size: 50px;
+font-weight: 700;
+line-height: 57px;
+}
+
+.sec3p1{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family:'mulish' ;
+    color: #696871;
+}
+
+.sec3p2{
+font-size: 17px;
+font-weight: 700;
+line-height: 22.13px;
+color: #5454d4;
+}
+
+.sec3parentdiv{
+    display: flex;
+    justify-content: space-around;
+    padding-top:159.75px ;
+
 }
