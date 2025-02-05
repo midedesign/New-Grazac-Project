@@ -37,12 +37,14 @@ body {
   height: 60px;
   border-radius: 10px;
   border: none;
+  color: white;
 }
 
 .navbar {
   display: flex;
   justify-content: space-evenly;
   padding-top: 30px;
+  padding-bottom: 100px;
 }
 
 .heroheading {
@@ -68,6 +70,7 @@ body {
   height: 60px;
   border-radius: 10px;
   border: none;
+  color: white;
 }
 
 .downarrow {
@@ -92,6 +95,7 @@ body {
 .iconpdiv {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 100px;
 }
 .sec3h5 {
   font-size: 50px;
@@ -157,7 +161,7 @@ body {
   line-height: 36px;
 }
 
- .sec5div1p1 {
+.sec5div1p1 {
   font-family: "mulish";
   font-size: 16px;
   font-weight: 400;
@@ -201,10 +205,183 @@ body {
   color: #696871;
 }
 
-.sec5parentdiv{
+.sec5parentdiv {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 138px;
+}
+
+.sec6div1h4 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.sec6div1but1 {
+  color: white;
+  background-color: #5454d4;
+  border: none;
+  width: 160px;
+  height: 55px;
+  font-size: 16px;
+}
+
+.sec6div1but2 {
+  color: black;
+  background-color: #f7f7fb;
+  border: none;
+  width: 160px;
+  height: 55px;
+  font-size: 16px;
+}
+
+.sec6div1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+p {
+  font-size: 17px;
+  color: #696871;
+  @font-face {
+    font-family: "mulish";
+  }
+  font-weight: 400;
+}
+
+.sec7div1 {
+  background-color: #f8f8f8;
+  width: 330px;
+  height: 441px;
+  text-align: center;
+  padding-top: 34px;
+  border-radius: 10px;
+  
+}
+
+.sec7div1p1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #696871;
+  line-height: 28px;
+}
+
+.sec7div1p2{
+    font-size: 60px;
+  font-weight: 700;
+  color: black;
+  line-height: 56px;
+}
+
+button {
+  width: 285px;
+  height: 60px;
+  background-color: white;
+  color: #5454d4;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22.13px;
+  border: none;
+  border-radius: 10px;
+}
+
+.sec7div2 {
+    background-color: #ff7143;
+    width: 376px;
+    height: 473px;
+    text-align: center;
+    padding-top: 34px;
+    border-radius: 10px;
+  }
+
+  .sec7div2p1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 28px;
+  }
+
+  .sec7div2p2{
+    font-size: 60px;
+  font-weight: 700;
+  color: white;
+  line-height: 56px;
+
+}
+
+.sec7div2but{
+    width: 285px;
+    height: 60px;
+    background-color: #9f3919;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.13px;
+    border: none;
+    border-radius: 10px;
+}
+
+.sec7d2s{
+    font-size: 28px;
+}
+
+.sec7div2p3{
+    font-size: 17px;
+    color: white;
+    @font-face {
+      font-family: "mulish";
+    }
+    font-weight: 400;
+}
+
+.sec7div2p4{
+    font-size: 17px;
+    color: white;
+    @font-face {
+      font-family: "mulish";
+    }
+    font-weight: 400;
+}
+
+.sec7div2p5{
+    font-size: 17px;
+    color: white;
+    @font-face {
+      font-family: "mulish";
+    }
+    font-weight: 400;
+}
+
+.sec7div3 {
+    background-color: #f8f8f8;
+    width: 330px;
+    height: 441px;
+    text-align: center;
+    padding-top: 34px;
+    border-radius: 10px;
+  }
+
+  .sec7div3p1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #696871;
+    line-height: 28px;
+  }
+  
+  .sec7div3p2{
+      font-size: 60px;
+    font-weight: 700;
+    color: black;
+    line-height: 56px;
+  }
+
+  .sec7d3s{
+    font-size: 28px;
+}
+
+.sec7pdiv{
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 30px;
-    padding-top:138px;
-    
 }
