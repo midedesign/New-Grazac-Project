@@ -129,3 +129,33 @@ color: #5454d4;
     padding-top:159.75px ;
 
 }
+
+.sec4h5{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    }
+
+    .sec4p1{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        font-family:'mulish' ;
+        color: #696871;
+    }
+    
+    .sec4p2{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.13px;
+    color: #5454d4;
+    }
+
+    .sec4parentdiv{
+        display: flex;
+        justify-content: space-around;
+        padding-top:159.75px ;
+    
+    }
+
+    
