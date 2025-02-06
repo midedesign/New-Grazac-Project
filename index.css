@@ -14,7 +14,7 @@ body {
 
 .navlink {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   font-size: 15px;
   font-weight: 700;
   line-height: 19.53px;
@@ -409,18 +409,39 @@ button {
   padding-left: 30px;
 }
 
-.logodiv2 {
-  padding-left: 30px;
-  padding-bottom: 100px;
-  padding-top: 30px;
+
+.menubar{
+  fill: #5454d4;
+
+}
+
+.mobilemenu{
   display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:30px;
+  padding-right: 30px;
+  padding-top: 50px;
+
+
 }
 
 @media screen and (max-width: 768px) {
   .navbar {
     display: none;
   }
-  .logodiv2 {
-    display: block;
+
+  .mobilemenu{
+    display: flex;
   }
+ 
+.hero{
+  display: block;
+  gap: 50px;
+}
+
+.herotext{
+  padding-bottom: 70px;
+}
+
 }
