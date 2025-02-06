@@ -64,7 +64,7 @@ body {
 .heroheading {
   font-size: 80px;
   font-weight: 700;
-  line-height: 77px;
+  padding: auto;
   color: #19191b;
   width: 100%;
 }
@@ -110,7 +110,7 @@ body {
   height: 100%;
 }
 .heroimg{
-  width: 610px;
+  width: 80%;
 }
 .iconpdiv {
   display: flex;
@@ -514,5 +514,19 @@ button {
     place-items: center;
   }
 
+  .heroheading{
+    font-size: 70px;
+  }
 
+
+
+
+}
+
+
+@media screen and (max-width:375px){
+
+  .heroheading{
+    font-size: 60px;
+  }
 }
