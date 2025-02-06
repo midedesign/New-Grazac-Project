@@ -14,7 +14,7 @@ body {
 
 .navlink {
   display: flex;
-  gap: 40px;
+  gap: 45px;
   font-size: 15px;
   font-weight: 700;
   line-height: 19.53px;
@@ -442,6 +442,43 @@ button {
 
 .herotext{
   padding-bottom: 70px;
+}
+
+.sec3parentdiv{
+  display: block;
+}
+
+.sec4parentdiv{
+  display: block;
+}
+
+.sec5parentdiv{
+  display: block;
+}
+
+.sec5div1p1{
+  padding-bottom: 50px;
+}
+
+.sec5div2p1{
+  padding-bottom: 50px;
+
+}
+
+.sec6div1{
+  display: block;
+}
+
+.iconpdiv{
+  gap: 10px;
+}
+
+.sec7pdiv{
+  display: block;
+}
+
+.sec6but{
+  padding-bottom: 50px;
 }
 
 }
