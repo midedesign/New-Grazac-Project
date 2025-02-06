@@ -21,24 +21,6 @@ body {
   color: #696871;
 }
 
-nav {
-  display: flex;
-  padding-top: 50px;
-}
-
-nav svg {
-  fill: #5454d4;
-}
-
-#sidebar-active {
-  display: none;
-}
-
-.open-sidebar-button,
-.close-sidebar-button {
-  display: none;
-}
-
 .homespan:hover {
   color: black;
   border-bottom: #5454d4 3px solid;
@@ -123,7 +105,13 @@ nav svg {
   padding-right: 110px;
   padding-left: 184px;
 }
-
+.heroimg > img{
+  width: 100%;
+  height: 100%;
+}
+.heroimg{
+  width: 610px;
+}
 .iconpdiv {
   display: flex;
   justify-content: space-evenly;
@@ -423,7 +411,7 @@ button {
   display: none;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 768px) {
   .navbar {
     display: none;
   }
