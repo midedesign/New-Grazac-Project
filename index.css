@@ -4,9 +4,11 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 @font-face {
-  font-family: "mulish";
-  font-family: "DM Sans";
+  font-family: face;
+  src: url(/Mulish-VariableFont_wght.ttf,);
 }
+  
+
 
 .logodiv {
   width: 199.48px;
@@ -559,6 +561,6 @@ button {
 @media screen and (max-width:375px){
 
   .heroheading{
-    font-size: 60px;
+    font-size: 40px;
   }
 }
